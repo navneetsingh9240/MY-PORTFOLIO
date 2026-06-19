@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navneet Kumar - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header / Navigation -->
+    <header>
+        <div class="container">
+            <h1 class="logo">Navneet<span>Kumar</span></h1>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#certificates">Certificates</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="nav-actions">
+                    <button id="theme-toggle" class="theme-toggle" aria-label="Toggle Theme">
+                        <i class="fas fa-sun"></i>
+                    </button>
+                    <div class="hamburger">
+                        <i class="fas fa-bars"></i>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text" data-aos="fade-right" data-aos-duration="1000">
+                    <h2>Hi, I'm <span class="highlight">Navneet Kumar</span></h2>
+                    <h3>B.Tech CSE Student | Frontend Developer | Web Developer</h3>
+                    <p>I am a B.Tech CSE student passionate about web development and software engineering. I build modern web applications using React.js, Firebase, and JavaScript.</p>
+                    <div class="hero-buttons">
+                        <a href="Navneet_Kumar_Resume (1).pdf" class="btn" download>Download Resume</a>
+                        <a href="#contact" class="btn btn-outline">Contact Me</a>
+                    </div>
+                </div>
+                <div class="hero-img-container" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+                    <img src="Navneet singh.jpg" alt="Navneet Kumar" class="hero-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">About Me</h2>
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-up" data-aos-delay="100">
+                    <p>I am pursuing B.Tech in Computer Science Engineering from United University (2023–2027). I enjoy building web applications and learning new technologies in software development.</p>
+                </div>
+                
+                <div class="education-table-container" data-aos="zoom-in" data-aos-delay="200">
+                    <h3>Education</h3>
+                    <table class="education-table">
+                        <thead>
+                            <tr>
+                                <th>Qualification</th>
+                                <th>Institute</th>
+                                <th>Score</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>B.Tech CSE</td>
+                                <td>United University prayagraj</td>
+                                <td>CGPA 6.5</td>
+                            </tr>
+                            <tr>
+                                <td>Class XII (CBSE)</td>
+                                <td>Kendriya Vidyalaya sangathan</td>
+                                <td>60.2%</td>
+                            </tr>
+                            <tr>
+                                <td>Class X (CBSE)</td>
+                                <td>Kendriya Vidyalaya sangathan</td>
+                                <td>66.2%</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="100">
+                    <h3>Programming Languages</h3>
+                    <ul class="skill-list">
+                        <li>C</li>
+                        <li>Python</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </div>
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="200">
+                    <h3>Web Technologies</h3>
+                    <ul class="skill-list">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>React.js</li>
+                        <li>Firebase</li>
+                    </ul>
+                </div>
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="300">
+                    <h3>Database</h3>
+                    <ul class="skill-list">
+                        <li>SQL</li>
+                        <li>Firestore</li>
+                    </ul>
+                </div>
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="400">
+                    <h3>Tools</h3>
+                    <ul class="skill-list">
+                        <li>Git</li>
+                        <li>GitHub</li>
+                        <li>VS Code</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Projects</h2>
+            <div class="project-grid">
+                <!-- Project 1 -->
+                <div class="project-card" data-aos="flip-left" data-aos-delay="100">
+                    <div class=""></div>
+                    <img src="farmer pic.jpg" alt="Farmer Marketplace Screenshot" class="project-img">
+                    <div class="project-info">
+                        <h3>FARMER MARKETPLACE</h3>
+                        <p>Farmer and Buyer Modules with Product Management.</p>
+                        <div class="tech-stack">
+                            <span>React.js</span>
+                            <span>Firebase Auth</span>
+                            <span>Firestore</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-small btn-outline"><i class="fab fa-github"></i> GitHub</a>
+                            <a href="#" class="btn btn-small"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="project-card" data-aos="flip-left" data-aos-delay="200">
+                    <div class=""></div>
+                    <img src="Recipe.png" alt="Recipe Finder App Screenshot" class="project-img">
+                    <div class="project-info">
+                        <h3>Recipe Finder App</h3>
+                        <p>A web app that fetches recipes based on user searches.</p>
+                        <div class="tech-stack">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>TheMealDB API</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-small btn-outline"><i class="fab fa-github"></i> GitHub</a>
+                            <a href="#" class="btn btn-small"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 3 -->
+                <div class="project-card" data-aos="flip-left" data-aos-delay="300">
+                    <div class=""></div>
+                    <img src="mini cafe.jpg" alt="Mini Cafe Management System Screenshot" class="project-img">
+                    <div class="project-info">
+                        <h3>Mini Cafe Management System</h3>
+                        <p>A cafe management system for orders and inventory.</p>
+                        <div class="tech-stack">
+                            <span>React.js</span>
+                            <span>Firebase</span>
+                            <span>Firestore</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-small btn-outline"><i class="fab fa-github"></i> GitHub</a>
+                            <a href="#" class="btn btn-small"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Experience / Internships</h2>
+            <div class="experience-grid">
+                <div class="experience-card" data-aos="fade-right" data-aos-delay="100">
+                    <h3>Codsoft Web Development Internship</h3>
+                    <p class="duration"><i class="far fa-calendar-alt"></i> July–August 2025</p>
+                    <div class="exp-details">
+                        <p><strong>Responsibilities:</strong> Developed modern web pages and learned professional workflow.</p>
+                        <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+                        <p><strong>Key Learnings:</strong> Responsive design and Git version control.</p>
+                    </div>
+                </div>
+                <div class="experience-card" data-aos="fade-right" data-aos-delay="200">
+                    <h3>Interncertify Frontend Development Internship</h3>
+                    <p class="duration"><i class="far fa-calendar-alt"></i> June–July 2025</p>
+                    <div class="exp-details">
+                        <p><strong>Responsibilities:</strong> Built interactive UI components.</p>
+                        <p><strong>Technologies:</strong> React.js</p>
+                        <p><strong>Key Learnings:</strong> Component lifecycle and state management.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificates & Achievements Section -->
+    <section id="certificates" class="certificates">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Certifications & Achievements</h2>
+            <div class="cert-achieve-grid">
+                <div class="certifications-list" data-aos="fade-up" data-aos-delay="100">
+                    <h3><i class="fas fa-certificate"></i> Certifications</h3>
+                    <ul>
+                        <li>NPTEL – Joy of Computing Using Python</li>
+                        <li>Codsoft Internship Certificate</li>
+                        <li>Interncertify Internship Certificate</li>
+                        <li>49 Days Coding Challenge Certificate</li>
+                    </ul>
+                </div>
+                <div class="achievements-list" data-aos="fade-up" data-aos-delay="200">
+                    <h3><i class="fas fa-trophy"></i> Achievements</h3>
+                    <ul>
+                        <li>Completed multiple web development projects</li>
+                        <li>Built full-stack applications using React and Firebase</li>
+                        <li>Completed coding challenges</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- GitHub Stats Section -->
+    <section class="github-stats">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">GitHub Statistics</h2>
+            <div class="stats-container">
+                <div class="stat-card" data-aos="zoom-in" data-aos-delay="100">
+                    <i class="fab fa-github fa-2x"></i>
+                    <h3>GitHub Contributions</h3>
+                    <p>Check out my activity graph.</p>
+                </div>
+                <div class="stat-card" data-aos="zoom-in" data-aos-delay="200">
+                    <i class="fas fa-code fa-2x"></i>
+                    <h3>Top Languages</h3>
+                    <p>JavaScript, HTML, CSS</p>
+                </div>
+                <div class="stat-card" data-aos="zoom-in" data-aos-delay="300">
+                    <i class="fas fa-folder-open fa-2x"></i>
+                    <h3>Project Repositories</h3>
+                    <p>View my source code.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Get In Touch</h2>
+            <div class="contact-info">
+                <div class="contact-item" data-aos="fade-up" data-aos-delay="100">
+                    <i class="fas fa-envelope"></i>
+                    <p>Email Me</p>
+                    <a href="mailto:navneetsingh9240@gmail.com">navneetsingh9240@gmail.com</a>
+                </div>
+                <div class="contact-item" data-aos="fade-up" data-aos-delay="200">
+                    <i class="fas fa-phone"></i>
+                    <p>Call Me</p>
+                    <a href="tel:+919235070979">+91 9235070979</a>
+                </div>
+                <div class="contact-item" data-aos="fade-up" data-aos-delay="300">
+                    <i class="fab fa-linkedin"></i>
+                    <p>LinkedIn</p>
+                    <a href="https://www.linkedin.com/in/navneet-kumar-714373304" target="_blank">www.linkedin.com/in/navneet-kumar-714373304</a>
+                </div>
+                <div class="contact-item" data-aos="fade-up" data-aos-delay="400">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>Location</p>
+                    <span>Prayagraj Uttarpradesh, India</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="https://github.com/navneetsingh9240" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/navneet-kumar-714373304" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <p>&copy; 2026 Designed & Built with ❤️</p>
+        </div>
+    </footer>
+
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
